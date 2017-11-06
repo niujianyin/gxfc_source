@@ -4,12 +4,20 @@
 
 # 目录结构
 ├─┬ betting 模拟投注
+│ ├─┬ emulator 投注
+│ │ └── index.html
 │ ├─┬ heat 最新号码热度
 │ │ └── index.html
 │ ├─┬ history 历史开奖
 │ │ └── index.html
-│ ├─┬ suggest 玩法介绍
+│ ├─┬ record 投注记录
 │ │ └── index.html
+│ ├─┬ suggest 玩法介绍
+│ │ ├── ssq.html
+│ │ ├── fc3d.html 
+│ │ ├── qlc.html
+│ │ ├── k7.html
+│ │ └── k10.html
 │ ├─┬ summary 汇总
 │ │ └── index.html
 │ └─┬ trend 走势图

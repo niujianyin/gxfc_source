@@ -1,0 +1,53 @@
+border-1px($color)
+  position: relative
+  &::after
+    display: block
+    position: absolute
+    left: 0
+    bottom: 0
+    width: 100%
+    height: 1px
+    background: $color
+    content: ' '
+border-no()
+  &:after
+    display: none
+
+
+bg-image($url)
+  background-image: url($url + "@2x.png")
+  @media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3)
+    background-image: url($url + "@3x.png")
+
+//特殊字体
+fs_special = 22px;
+//一类文字
+fs17 = 17px;
+color1 = #1A1A1C;
+//二类文字
+fs16 = 16px;
+color2 = #7E7E80;
+//三类文字
+fs14 = 14px;
+color3 = #95989A;
+//四类文字
+fs12 = 12px;
+
+// icon颜色
+c_icon = #C7C6C6;
+c_icon1 = #D9D7D7;
+// 分割线颜色
+c_split = #EBE8E8;
+//背景色
+c_bg = #F9F9F9;
+//top 标题条
+c_red = #ec292d;
+//奖号／提示文字
+c_red1 = #F25E58;
+//状态提示
+c_red2 = #FFCAC6;
+//奖号配色
+c_blue = #4593EF;
+
+fixed_top = 0px;
+
